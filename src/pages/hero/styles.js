@@ -14,6 +14,8 @@ flex-direction: column;
 background-image:url(${image});
 
 @media (max-width: 600px) {
+    // display: none;
+    width:96%;
 }
 
 
@@ -25,7 +27,7 @@ padding-bottom:30px;
 
 width:50%;
 @media only screen and (max-width: 600px) {
-    // display: none;
+    display: none;
    
   
 }
@@ -37,12 +39,12 @@ justify-content: space-between;
 align-items: center;
 display: flex;
 flex-direction: row;
-width: ${(props)=>props.width ? props.width:"75%"};
+width: ${(props)=>props.width ? props.width:"100%"};
 @media (max-width: 600px) {
 
 flex-direction: column;
-
-width: ${(props)=>props.widthR ? props.widthR:"100%"};
+// display: none;
+// width: 60%;
     /* flex-direction: ${(props)=>props.flexDirection ? props.flexDirection : "column"}; */
 
 }
@@ -59,7 +61,7 @@ display: flex;
 flex-direction:row;
 
 @media only screen and (max-width: 600px) {
-    display: none;
+    // display: none;
     flex-direction: column;
   
 }
@@ -84,7 +86,7 @@ align-items: center;
 display: flex;
 @media  (max-width: 600px) {
 
-    width:100%;
+    width:80%;
   
 }
 
@@ -97,20 +99,10 @@ flex-direction:column;
 justify-content:center;
 align-items: center;
 width:20%;
-
-.flex{
-    width:100%;
-
-}
 @media  (max-width: 600px) {
 
     width: 100%;
-    flex-direction:column-reverse;
-
-    .flex{
-        width:80%;
-        align-items:center;
-    }
+    flexdirection:column-reverse
   
 }
 

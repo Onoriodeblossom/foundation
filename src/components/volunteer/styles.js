@@ -8,6 +8,8 @@ flex-direction: ${(props)=>props.flexDirection ? props.flexDirection : "row"};
 
 
 @media (max-width: 600px) {
+    justify-content: center;
+    align-items: center;
 /* flex-direction: column; */
     flex-direction: ${(props)=>props.flexDirectionR ? props.flexDirectionR : "column"};
 }
@@ -38,7 +40,7 @@ display: flex;
 
 @media (max-width: 600px) {
 flex-direction: column;
-width: 100%;
+width: 80%;
 
     /* flex-direction: ${(props)=>props.flexDirection ? props.flexDirection : "column"}; */
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Flex, ImageSection, TextContainer, WrightUp } from "./styles";
-
+import One from "../../assets/one.png"
 import { H1 } from "../h1/h1";
 import { P } from "../p/p";
 import { Button } from "../button/button";
@@ -10,7 +10,7 @@ import {
    
     Link,
   } from "react-router-dom";
-// import { Donate } from "../../pages/donate/donate";
+import { Donate } from "../../pages/donate/donate";
 
 export const Volunteer = ({background,text,flexDirection,h1,text2,to}) =>{
     return(
