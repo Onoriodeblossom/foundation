@@ -24,16 +24,16 @@ export const Footer = () =>{
 
                     <img src={logo} alt="nnx"/>
                     <Name  >Nicholas Akinwale Agbeni Foundation</Name>
-                    <P>A Non-Profit Organization set up with a 
+                    <P align={"center"}>A Non-Profit Organization set up with a 
                         mission to meet humanitarian needs in the best way as it can.</P>
                     </Flex>
 
                     <Flex flexDirection="column" width="14%" justifyContent={"center"}>
                         <Name>Product</Name>
 
-<P align={"start"}>Landing Page</P>
-<P align={"start"}>content</P>
-<P align={"start"}>Content web design</P>
+<P>Landing Page</P>
+<P>content</P>
+<P>Content web design</P>
 </Flex>
 
 

@@ -98,6 +98,7 @@ align-items: flex-start;
 @media (max-width: 600px) {
 flex-direction: column;
 width: 100%;
+align-items: center;;
     /* flex-direction: ${(props)=>props.flexDirection ? props.flexDirection : "column"}; */
 }
 
@@ -107,5 +108,9 @@ font-size: 18px;
 font-weight: 800;
 text-align: left;
 color:#515151;
+
+@media (max-width: 600px) {
+text-align: center;
+}
 
 `

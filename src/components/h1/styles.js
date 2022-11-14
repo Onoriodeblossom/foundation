@@ -7,6 +7,8 @@ line-height: 52px;
 letter-spacing: 0em;
 text-align:${(props)=> props.align ? props.align :"right"} ;
 color:#515151;
-
+@media(max-width: 600px) {
+    text-align: center;
+}
 
 `

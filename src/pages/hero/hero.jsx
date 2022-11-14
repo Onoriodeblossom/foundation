@@ -125,14 +125,14 @@ const Hero = () => {
         communities are currently being neglected and completely cut out of national budget with little to no access to basic ammenities 
         such as Clean water, Constant supply of 
         light, and motorable roads."/>
-        <Flex width="80%">
+        <Flex width="80%" widthR={"100%"}>
         {
             impactStory.map(({img,text,title})=>(
 
           <ImpactStoryCard>
 
           <Image src={img}/>
-          <div>
+          <div className="flex">
 
           <OrangeHeaderText size="18px">
             {title}
