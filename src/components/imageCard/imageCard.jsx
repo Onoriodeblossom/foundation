@@ -32,4 +32,4 @@ const ImageContainer = styled.img`
   height: 180px;
 `;
 const TextContainer = styled.div``;
-const Text = styled.div``;
+// const Text = styled.div``;
