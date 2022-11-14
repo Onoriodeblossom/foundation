@@ -3,22 +3,15 @@ import { Button } from "../../components/button/button"
 import { Container } from "../../components/Container/styles"
 import { H1 } from "../../components/h1/h1"
 import { P } from "../../components/p/p"
-import One from "../../assets/one.png";
 import Two from "../../assets/2.png";
 import Three from "../../assets/3.png";
 import Four from "../../assets/4.png";
 import {BiArrowBack} from "react-icons/bi"
-// import Poverty from "../../assets/poverty.png"
 
 import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
   Link,
 } from "react-router-dom";
 
-import A from "../../assets/a.png"
-import B from "../../assets/b.png"
 import { Flex, Icon, Image, ImageSection, ImpactStoryCard, Next, TextContainer, WrapperContainer } from "./styles"
 import { OrangeHeaderText } from "../../components/orangeText/styles"
 import { Footer } from "../../components/footer/footer"

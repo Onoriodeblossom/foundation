@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "../../components/Container/styles";
 import { P } from "../../components/p/p";
 import { OrangeHeaderText } from "../../components/orangeText/styles";
-import { CardContainer, ContactUsContainer, Flex, Image, ImpactStoryCard, ImpactStoryContainer, TextContainer, WrapperContainer } from "./styles";
+import { CardContainer, ContactUsContainer, Flex, Image, ImpactStoryCard, TextContainer, WrapperContainer } from "./styles";
 import { ImageCard } from "../../components/imageCard/imageCard";
 import One from "../../assets/one.png";
 import Two from "../../assets/2.png";
@@ -12,7 +12,7 @@ import Poverty from "../../assets/poverty.png"
 
 import A from "../../assets/a.png"
 import B from "../../assets/b.png"
-import {IoArrowForwardSharp, IoArrowForwardCircleOutline} from "react-icons/io5"
+import { IoArrowForwardCircleOutline} from "react-icons/io5"
 
 import {IoIosPeople,} from "react-icons/io"
 import {GiLoveHowl} from "react-icons/gi"

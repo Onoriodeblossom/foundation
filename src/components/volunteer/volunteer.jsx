@@ -1,18 +1,16 @@
 import React from "react";
 import { Container, Flex, ImageSection, TextContainer, WrightUp } from "./styles";
-import One from "../../assets/one.png"
+
 import { H1 } from "../h1/h1";
 import { P } from "../p/p";
 import { Button } from "../button/button";
 import  Emoji1  from '../../assets/emoji.png'
 import  Emoji2  from '../../assets/emoji2.png'
 import {
-    createBrowserRouter,
-    RouterProvider,
-    Route,
+   
     Link,
   } from "react-router-dom";
-import { Donate } from "../../pages/donate/donate";
+// import { Donate } from "../../pages/donate/donate";
 
 export const Volunteer = ({background,text,flexDirection,h1,text2,to}) =>{
     return(

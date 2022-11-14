@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hero from './pages/hero/hero';
 import Poverty from './pages/poverty/poverty';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link
 } from "react-router-dom";
 import Community from './pages/community/community';
 import Education from './pages/education/education';
