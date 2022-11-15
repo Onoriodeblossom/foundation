@@ -5,7 +5,7 @@ import { H1 } from "../h1/h1";
 import { P } from "../p/p";
 import { Button } from "../button/button";
 import  Emoji1  from '../../assets/emoji.png'
-// import  Emoji2  from '../../assets/emoji2.png'
+import  Emoji2  from '../../assets/emoji2.png'
 import {
    
     Link,
