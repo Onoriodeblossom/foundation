@@ -15,7 +15,7 @@ background-image:url(${image});
 
 @media (max-width: 600px) {
     // display: none;
-    width:96%;
+    width:100%;
 }
 
 
