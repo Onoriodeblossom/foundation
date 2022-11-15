@@ -26,3 +26,8 @@ text-align: left;
 
 
 `
+
+
+export const DonateButton = styled.button`
+
+`
