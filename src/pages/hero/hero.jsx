@@ -2,8 +2,8 @@ import React from "react";
 import { Container } from "../../components/Container/styles";
 import { P } from "../../components/p/p";
 import { OrangeHeaderText } from "../../components/orangeText/styles";
-import { CardContainer, ContactUsContainer, Flex, Image, ImpactStoryCard, ImpactStoryContainer, TextContainer, WrapperContainer } from "./styles";
-import { ImageCard } from "../../components/imageCard/imageCard";
+import { CardContainer, ContactUsContainer, Flex, Image, ImpactStoryCard,  TextContainer, WrapperContainer } from "./styles";
+// import { ImageCard } from "../../components/imageCard/imageCard";
 import One from "../../assets/one.png";
 import Two from "../../assets/2.png";
 import Three from "../../assets/3.png";
@@ -12,7 +12,7 @@ import Poverty from "../../assets/poverty.png"
 
 import A from "../../assets/a.png"
 import B from "../../assets/b.png"
-import {IoArrowForwardSharp, IoArrowForwardCircleOutline} from "react-icons/io5"
+import { IoArrowForwardCircleOutline} from "react-icons/io5"
 
 import {IoIosPeople,} from "react-icons/io"
 import {GiLoveHowl} from "react-icons/gi"
@@ -20,19 +20,19 @@ import {CgPhone} from "react-icons/cg"
 import { H2 } from "../../components/h2/h2";
 import { Volunteer } from "../../components/volunteer/volunteer";
 import { Footer } from "../../components/footer/footer";
-import { Header } from "../../components/header/header";
+// import { Header } from "../../components/header/header";
 
 const Hero = () => {
   const vision = [
     {
       image: One,
-      path:"/poverty",
+      path:"/community",
       text: "RELIEVE POVERTY  AND HUNGER ",
     },
     {
       image: Two,
-      path:`education`,
-      text: "ENCOURAGE EDUCATION, SKILLS ACQUISITION AND TRADE ",
+      path:`"education"`,
+      text: "ENCOURAGE xmnd EDUCATION, SKILLS ACQUISITION AND TRADE ",
     },
     {
       image: Three,
@@ -64,7 +64,7 @@ const Hero = () => {
   ]
   return (
     <Container>
-      <Header/>
+      {/* <Header/> */}
       <WrapperContainer>
         <OrangeHeaderText top="40px">Our Mission and Purpose</OrangeHeaderText>
         <TextContainer>
@@ -75,8 +75,8 @@ const Hero = () => {
           </P>
         </TextContainer>
         <Flex>
-          {vision.map(({ image, text,part}) => (
-            <ImageCard src={image} text={text} onclick={part} />
+          {vision.map(({ image, text,path}) => (
+            <ImageCard src={image} text={text} to={path} />
           ))}
         </Flex>
       </WrapperContainer>
