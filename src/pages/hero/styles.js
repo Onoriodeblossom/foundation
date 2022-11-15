@@ -27,8 +27,8 @@ padding-bottom:30px;
 
 width:50%;
 @media only screen and (max-width: 600px) {
-    display: none;
-   
+    /* display: none; */
+   width:90%
   
 }
 
@@ -39,6 +39,8 @@ justify-content: space-between;
 align-items: center;
 display: flex;
 flex-direction: row;
+padding-top:30px;
+padding-bottom:30px;
 width: ${(props)=>props.width ? props.width:"100%"};
 @media (max-width: 600px) {
 
@@ -58,6 +60,8 @@ width: 80%;
 justify-content: space-around;
 align-items: center;
 display: flex;
+padding-top:60px;
+padding-bottom:60px;
 flex-direction:row;
 
 @media only screen and (max-width: 600px) {

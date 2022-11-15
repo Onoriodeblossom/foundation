@@ -31,16 +31,18 @@ const Hero = () => {
     },
     {
       image: Two,
-      path:`"education"`,
-      text: "ENCOURAGE xmnd EDUCATION, SKILLS ACQUISITION AND TRADE ",
+      path:"education",
+      text: "ENCOURAGE  EDUCATION, SKILLS ACQUISITION AND TRADE ",
     },
     {
       image: Three,
+      path:"community",
       text: "COMMUNITY DEVELOPMENT PROJECT ",
     },
     {
       image: Four,
-      text: "COMMUNITY DEVELOPMENT  PROJECT ",
+      path:"eldercare",
+      text: "COMPASION FOR THE EDERLY, CARE FOR THE LONELY  ",
     },
   ];
 
@@ -74,7 +76,7 @@ const Hero = () => {
             can with focus centered on:
           </P>
         </TextContainer>
-        <Flex>
+        <Flex width={"80%"}>
           {vision.map(({ image, text,path}) => (
             <ImageCard src={image} text={text} to={path} />
           ))}
@@ -112,6 +114,28 @@ const Hero = () => {
                          every ounce of strength due 
                          to rising Inflation, 
                          Conflict and Disaster" />
+                         <OrangeHeaderText>Our Impart stories</OrangeHeaderText>
+                         <Flex width="80%">
+
+        {
+            impactStory.map(({img,text,title})=>(
+
+          <ImpactStoryCard>
+
+          <Image src={img}/>
+          <div>
+
+          <OrangeHeaderText size="18px">
+            {title}
+          </OrangeHeaderText>
+          <P align={"start"}>{text}</P>
+          </div>
+          </ImpactStoryCard>
+            ))
+          }
+
+
+        </Flex>
         <Volunteer background={A}  h1="Encourage Education, skills Acquisition and Trade" flexDirection="row-reverse"
         text="Millions of children are 
         currently out of school and 
@@ -122,10 +146,33 @@ const Hero = () => {
          a mission to move his mountains
           and a million others."
         />
+        <OrangeHeaderText>Our Impart stories</OrangeHeaderText>
+        <Flex width="80%">
+
+        {
+            impactStory.map(({img,text,title})=>(
+
+          <ImpactStoryCard>
+
+          <Image src={img}/>
+          <div>
+
+          <OrangeHeaderText size="18px">
+            {title}
+          </OrangeHeaderText>
+          <P align={"start"}>{text}</P>
+          </div>
+          </ImpactStoryCard>
+            ))
+          }
+
+
+        </Flex>
         <Volunteer background={B} h1="Community Development Projects" text="Thousand of 
         communities are currently being neglected and completely cut out of national budget with little to no access to basic ammenities 
         such as Clean water, Constant supply of 
         light, and motorable roads."/>
+          <OrangeHeaderText>Our Impart stories</OrangeHeaderText>
         <Flex width="80%">
         {
             impactStory.map(({img,text,title})=>(

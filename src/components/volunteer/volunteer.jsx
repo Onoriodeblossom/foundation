@@ -26,14 +26,14 @@ export const Volunteer = ({background,text,flexDirection,h1,text2,to}) =>{
                     <Flex>
                     <Button>
 
-                <Link className="link" to="donate" color="color">
+                <Link className="link" to={to} color="color">
 
-                        Donate
+                        see more
                 </Link>
                     </Button>
                     <Button backgroundColor="white" color="#FFBD14" to={to}>
 
-                <Link className="link" to={"poverty"} color="color">
+                <Link className="link" to={to} color="color">
 
                         Volunteer
                 </Link>

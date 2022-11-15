@@ -6,9 +6,10 @@ font-weight: 800;
 line-height: 0px;
 letter-spacing: 0em;
 opacity: 1;
+/* padding-top: ${(props)=> props.top ? props.top : "20px"}; */
 text-align: center;
 color: #FFBD14;
-padding-top:${(props)=> props.top ? props.top : "0px"}
+padding-top:${(props)=> props.top ? props.top : "30px"}
 
 
 
