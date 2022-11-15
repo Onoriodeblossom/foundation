@@ -2,7 +2,7 @@ import React,{ useState } from "react";
 import { Container } from "../../components/Container/styles";
 import { Header } from "../../components/header/header";
 import { P } from "../../components/p/p";
-import { Paypal } from "../../components/paypal/paypal";
+import Paypal  from "../../components/paypal/paypal";
 import { DonateButton, Title, Width, WrapperContainer } from "./styles";
 
 export const Donate= ()=>{
