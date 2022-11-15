@@ -3,7 +3,7 @@ import { Container } from "../../components/Container/styles";
 import { P } from "../../components/p/p";
 import { OrangeHeaderText } from "../../components/orangeText/styles";
 import { CardContainer, ContactUsContainer, Flex, Image, ImpactStoryCard,  TextContainer, WrapperContainer } from "./styles";
-// import { ImageCard } from "../../components/imageCard/imageCard";
+import { ImageCard } from "../../components/imageCard/imageCard";
 import One from "../../assets/one.png";
 import Two from "../../assets/2.png";
 import Three from "../../assets/3.png";
