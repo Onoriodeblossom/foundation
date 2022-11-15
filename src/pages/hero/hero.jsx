@@ -136,7 +136,7 @@ const Hero = () => {
 
 
         </Flex>
-        <Volunteer background={A}  h1="Encourage Education, skills Acquisition and Trade" flexDirection="row-reverse"
+        <Volunteer background={A} to={"education"}  h1="Encourage Education, skills Acquisition and Trade" flexDirection="row-reverse"
         text="Millions of children are 
         currently out of school and 
         skill acquisition centre due 
@@ -168,7 +168,7 @@ const Hero = () => {
 
 
         </Flex>
-        <Volunteer background={B} h1="Community Development Projects" text="Thousand of 
+        <Volunteer background={B} to={"community"} h1="Community Development Projects" text="Thousand of 
         communities are currently being neglected and completely cut out of national budget with little to no access to basic ammenities 
         such as Clean water, Constant supply of 
         light, and motorable roads."/>
