@@ -54,6 +54,16 @@ width: 100%;
 export const TextContainer =styled.div`
 width:100%;
 
+ol{
+    padding: 20px;
+    justify-content: space-between;
+
+    li{
+        color:#515151;
+        margin-top:10px
+    }
+}
+
 @media (max-width: 600px) {
 /* height: 400px; */
 width: 80%;
@@ -112,10 +122,12 @@ padding-bottom:40px;
 /* padding-right:30px; */
 width: 90%;
 
+
+
 flex-direction: row;
 @media  (max-width: 600px) {
     flex-direction: column;
-    display: none;
+    /* display: none; */
   
 }
 

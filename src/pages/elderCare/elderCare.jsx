@@ -56,61 +56,18 @@ const ElderCare = () =>{
                     </Flex>
                 </Flex>
                 <TextContainer>
-                    <P align={"start"}>
-                    Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna
-                       aliqua. Ut enim ad minim veniam, quis 
-                       nostrud exercitation ullamco laboris 
-                       nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore 
-                        eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident,
-                         sunt in culpa qui officia deserunt
-                          mollit anim id est laborum. Lorem 
-                          ipsum dolor sit amet, consectetur 
-                          adipiscing elit, sed do eiusmod 
-                          tempor incididunt ut labore et 
-                          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                     cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                <P align={"start"}>
+                      Millions of  elderly men and 
+                      women in Africa are left to 
+                      fend for themselves with their
+                       weak body structure and age telling 
+                       on them. Thousand others live in 
+                    extremely loneliness with nobody to care for them:
+                    
                     </P>
                     <P align={"start"}>
-                    Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna
-                       aliqua. Ut enim ad minim veniam, quis 
-                       nostrud exercitation ullamco laboris 
-                       nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore 
-                        eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident,
-                         sunt in culpa qui officia deserunt
-                          mollit anim id est laborum. Lorem 
-                          ipsum dolor sit amet, consectetur 
-                          adipiscing elit, sed do eiusmod 
-                          tempor incididunt ut labore et 
-                          dolore magna aliqua. Ut enim ad minim veniam,
-                           quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat. Duis aute 
-                            irure dolor in reprehenderit in voluptate velit
-                             esse cillum dolore eu fugiat nulla pariatur.
-                              Excepteur sint occaecat cupidatat non proident,
-                               sunt in culpa qui officia deserunt mollit anim id 
-                               est laborum. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt 
-                                ut labore et dolore magna aliqua.
-                                 Ut enim ad minim veniam, quis 
-                                 nostrud exercitation ullamco 
-                                 laboris nisi ut aliquip ex 
-                                 ea commodo consequat. Duis aute 
-                                 irure dolor in reprehenderit in
-                                  voluptate velit esse cillum dolore eu
-                                   fugiat nulla pariatur. Excepteur sint occaecat
-                     cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                    Join us today on our 
+                    mission to give them a world to believe in
                     </P>
                 </TextContainer>
                     <OrangeHeaderText>Our Impact stories</OrangeHeaderText>

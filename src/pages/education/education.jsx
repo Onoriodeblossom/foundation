@@ -57,61 +57,64 @@ const   Education = () =>{
                 </Flex>
                 <TextContainer>
                     <P align={"start"}>
-                    Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna
-                       aliqua. Ut enim ad minim veniam, quis 
-                       nostrud exercitation ullamco laboris 
-                       nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore 
-                        eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident,
-                         sunt in culpa qui officia deserunt
-                          mollit anim id est laborum. Lorem 
-                          ipsum dolor sit amet, consectetur 
-                          adipiscing elit, sed do eiusmod 
-                          tempor incididunt ut labore et 
-                          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                     cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                    Millions of children, teens, 
+                    and young adults are currently
+                     out of schools, and million 
+                     others have zero access to
+                      skills acquisition centers 
+                      due to extreme poverty. 
+                      Hearts blistering with passion for 
+                      knowledge and ability to make a 
+                      difference in our world have had their 
+                      hope brought to a halt, mainly due to 
+                      inability to meet up with 
+                    the financial requirement to nurture their dreams.
                     </P>
                     <P align={"start"}>
-                    Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna
-                       aliqua. Ut enim ad minim veniam, quis 
-                       nostrud exercitation ullamco laboris 
-                       nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore 
-                        eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident,
-                         sunt in culpa qui officia deserunt
-                          mollit anim id est laborum. Lorem 
-                          ipsum dolor sit amet, consectetur 
-                          adipiscing elit, sed do eiusmod 
-                          tempor incididunt ut labore et 
-                          dolore magna aliqua. Ut enim ad minim veniam,
-                           quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat. Duis aute 
-                            irure dolor in reprehenderit in voluptate velit
-                             esse cillum dolore eu fugiat nulla pariatur.
-                              Excepteur sint occaecat cupidatat non proident,
-                               sunt in culpa qui officia deserunt mollit anim id 
-                               est laborum. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt 
-                                ut labore et dolore magna aliqua.
-                                 Ut enim ad minim veniam, quis 
-                                 nostrud exercitation ullamco 
-                                 laboris nisi ut aliquip ex 
-                                 ea commodo consequat. Duis aute 
-                                 irure dolor in reprehenderit in
-                                  voluptate velit esse cillum dolore eu
-                                   fugiat nulla pariatur. Excepteur sint occaecat
-                     cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                    At Nagbeni foundation,
+                     we are on a mission to 
+                     save these dreams, and to 
+                    build a bridge of knowledge and competence by:
                     </P>
+                    <ol>
+            <li> Sponsoring education</li>
+
+            <li>
+
+    Sponsoring skills acquisition
+            </li>
+            <li>
+
+    Sponsoring intelligent initiatives and
+            </li>
+            <li>
+
+    Supporting trades
+            </li>
+            
+          </ol>
+          <P>
+          It is our conviction that everyone has the ability to make a difference if given the opportunity.
+Get involved in the best way you can.
+          </P>
+          <ol>
+          <li> Sponsoring education</li>
+
+<li>
+
+Sponsoring skills acquisition
+</li>
+<li>
+
+Sponsoring intelligent initiatives and
+</li>
+<li>
+
+Supporting trades
+</li>
+
+</ol>
+
                 </TextContainer>
                     <OrangeHeaderText>Our Impact stories</OrangeHeaderText>
                 <Flex>

@@ -1,161 +1,121 @@
-import  React from "react"
-import { Button } from "../../components/button/button"
-import { Container } from "../../components/Container/styles"
-import { H1 } from "../../components/h1/h1"
-import { P } from "../../components/p/p"
+import React from "react";
+import { Button } from "../../components/button/button";
+import { Container } from "../../components/Container/styles";
+import { H1 } from "../../components/h1/h1";
+import { P } from "../../components/p/p";
 import Two from "../../assets/2.png";
 import Three from "../../assets/3.png";
 import Four from "../../assets/4.png";
-import {BiArrowBack} from "react-icons/bi"
+import { BiArrowBack } from "react-icons/bi";
+
+import { Link } from "react-router-dom";
 
 import {
-  Link,
-} from "react-router-dom";
+  Flex,
+  Icon,
+  Image,
+  ImageSection,
+  ImpactStoryCard,
+  Next,
+  TextContainer,
+  WrapperContainer,
+} from "./styles";
+import { OrangeHeaderText } from "../../components/orangeText/styles";
+import { Footer } from "../../components/footer/footer";
+import { Header } from "../../components/header/header";
 
-import { Flex, Icon, Image, ImageSection, ImpactStoryCard, Next, TextContainer, WrapperContainer } from "./styles"
-import { OrangeHeaderText } from "../../components/orangeText/styles"
-import { Footer } from "../../components/footer/footer"
-import { Header } from "../../components/header/header"
+const Poverty = () => {
+  const impactStory = [
+    {
+      img: Two,
+      title: "Anna Kingston",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor posuere neque at mollis. Mauris vitae tortor leo. Lorem ipsum dolor sit amet,  ",
+    },
+    {
+      img: Three,
+      title: "Anna Kingston",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor posuere neque at mollis. Mauris vitae tortor leo. Lorem ipsum dolor sit amet,  ",
+    },
+    {
+      img: Four,
+      title: "Anna Kingston",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor posuere neque at mollis. Mauris vitae tortor leo. Lorem ipsum dolor sit amet, ",
+    },
+  ];
 
+  return (
+    <Container>
+      <Header />
+      <WrapperContainer>
+        <ImageSection></ImageSection>
+        <Flex>
+          <H1 align={"left"}>
+            Poverty And Hunger
+            <br />
+            Relief
+          </H1>
 
-const Poverty = () =>{
-    const impactStory =[
-        {
-          img: Two,
-          title:"Anna Kingston",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor posuere neque at mollis. Mauris vitae tortor leo. Lorem ipsum dolor sit amet,  ",
-        },
-        {
-          img: Three,
-          title:"Anna Kingston",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor posuere neque at mollis. Mauris vitae tortor leo. Lorem ipsum dolor sit amet,  ",
-        },
-        {
-          img: Four,
-          title:"Anna Kingston",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor posuere neque at mollis. Mauris vitae tortor leo. Lorem ipsum dolor sit amet, ",
-        },
-      ]
-    
+          <Flex width="20%">
+            <Button>Donate</Button>
+            <Button backgroundColor={"white"} color="#FFBD14">
+              Voluteer
+            </Button>
+          </Flex>
+        </Flex>
+        <TextContainer>
+          <P align={"start"}>
+            Millions of people are currently living below poverty level and
+            battling with hunger with every ounce of their little strength due
+            to rising inflation, conflict, disaster and other natural
+            phenomenon.
+          </P>
+          <P align={"start"}>
+            At Nagbeni Foundation, we have embarked on a mission to give these
+            precious souls the Audacity of hope. We believe no one should go to
+            bed hungry in a world where there is abundance. officia deserunt
+            mollit anim id est laborum.
+          </P>
+          <P align="start">
+            Join us on our mission to reduce poverty and hunger to a minimum
+            level and rescue millions from the torment of hunger.
+          </P>
 
-    return(
-        <Container>
-            <Header/>
-            <WrapperContainer>
-                
-                <ImageSection>
+          <ol>
+            <li> Sponsoring meals</li>
+            <li>Volunteering</li>
+            <li>Referring someone to donate to this cause</li>
+          </ol>
+        </TextContainer>
+        <OrangeHeaderText>Our Impact stories</OrangeHeaderText>
+        <Flex>
+          {/* <br/> */}
 
-                </ImageSection>
-                <Flex>
-                    <H1 align={"left"}>Poverty And Hunger 
-                        <br/>Relief</H1>
+          {impactStory.map(({ img, text, title }) => (
+            <ImpactStoryCard>
+              <Image src={img} />
+              <div>
+                <OrangeHeaderText size="18px">{title}</OrangeHeaderText>
+                <P align={"start"}>{text}</P>
+              </div>
+            </ImpactStoryCard>
+          ))}
+        </Flex>
+      </WrapperContainer>
+      <Next>
+        <Icon>
+          <BiArrowBack />
+          <P color="black">Back</P>
+        </Icon>
 
-                    <Flex width="20%">
-                        <Button>
-                            Donate
-                        </Button>
-                        <Button backgroundColor={"white"} color="#FFBD14">Voluteer</Button>
-                    </Flex>
-                </Flex>
-                <TextContainer>
-                    <P align={"start"}>
-                    Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna
-                       aliqua. Ut enim ad minim veniam, quis 
-                       nostrud exercitation ullamco laboris 
-                       nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore 
-                        eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident,
-                         sunt in culpa qui officia deserunt
-                          mollit anim id est laborum. Lorem 
-                          ipsum dolor sit amet, consectetur 
-                          adipiscing elit, sed do eiusmod 
-                          tempor incididunt ut labore et 
-                          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                     cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </P>
-                    <P align={"start"}>
-                    Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna
-                       aliqua. Ut enim ad minim veniam, quis 
-                       nostrud exercitation ullamco laboris 
-                       nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore 
-                        eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident,
-                         sunt in culpa qui officia deserunt
-                          mollit anim id est laborum. Lorem 
-                          ipsum dolor sit amet, consectetur 
-                          adipiscing elit, sed do eiusmod 
-                          tempor incididunt ut labore et 
-                          dolore magna aliqua. Ut enim ad minim veniam,
-                           quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat. Duis aute 
-                            irure dolor in reprehenderit in voluptate velit
-                             esse cillum dolore eu fugiat nulla pariatur.
-                              Excepteur sint occaecat cupidatat non proident,
-                               sunt in culpa qui officia deserunt mollit anim id 
-                               est laborum. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt 
-                                ut labore et dolore magna aliqua.
-                                 Ut enim ad minim veniam, quis 
-                                 nostrud exercitation ullamco 
-                                 laboris nisi ut aliquip ex 
-                                 ea commodo consequat. Duis aute 
-                                 irure dolor in reprehenderit in
-                                  voluptate velit esse cillum dolore eu
-                                   fugiat nulla pariatur. Excepteur sint occaecat
-                     cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </P>
-                </TextContainer>
-                    <OrangeHeaderText>Our Impact stories</OrangeHeaderText>
-                <Flex>
-                    {/* <br/> */}
+        <OrangeHeaderText>
+          <Link to="/education">
+            Next - ENCOURAGE EDUCATION, SKILLS ACQUISITION AND TRADE
+          </Link>
+        </OrangeHeaderText>
+      </Next>
+      <Footer />
+    </Container>
+  );
+};
 
-                {
-            impactStory.map(({img,text,title})=>(
-
-          <ImpactStoryCard>
-
-          <Image src={img}/>
-          <div>
-
-          <OrangeHeaderText size="18px">
-            {title}
-          </OrangeHeaderText>
-          <P align={"start"}>{text}</P>
-          </div>
-          </ImpactStoryCard>
-            ))
-          }
-                </Flex>
-
-            </WrapperContainer>
-            <Next>
-                <Icon>
-                    <BiArrowBack/>
-                    <P color="black">Back</P>
-                </Icon>
-
-                <OrangeHeaderText>
-                  <Link to="/education">
-
-                Next - ENCOURAGE EDUCATION, SKILLS 
-ACQUISITION AND TRADE 
-                  </Link>
-                </OrangeHeaderText>
-            </Next>
-                <Footer/>
-        </Container>
-
-    )
-}
-
-export default Poverty
+export default Poverty;

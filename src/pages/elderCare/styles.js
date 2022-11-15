@@ -115,7 +115,7 @@ width: 90%;
 flex-direction: row;
 @media  (max-width: 600px) {
     flex-direction: column;
-    display: none;
+    /* display: none; */
   
 }
 

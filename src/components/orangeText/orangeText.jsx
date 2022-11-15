@@ -3,7 +3,7 @@ import { OrangeHeaderText } from "./styles";
 
 export const OrangeText = ({children,size, top}) =>{
     return(
-        <OrangeHeaderText size={size} top={top}>
+        <OrangeHeaderText size={size} top={top} >
             {children}
         </OrangeHeaderText>
     )
