@@ -17,9 +17,9 @@ export   const Header = () =>{
 
               <Link href={`contacts/1`}>Partner with Us</Link>
             
-              <Link href={`contacts/2`}>Contact us</Link>
+              <Link href={""}>Contact us</Link>
             
-            <Button>Donate</Button>
+            <Button to="/donate">Donate</Button>
             
           </LinkContainer>
 

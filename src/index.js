@@ -45,7 +45,7 @@ const router =createBrowserRouter([
         element: <ElderCare/>,
       },
       {
-        path: "education",
+        path: "donate",
         element: <Donate/>,
       }
     // ],
