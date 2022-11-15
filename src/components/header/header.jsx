@@ -7,7 +7,7 @@ export   const Header = () =>{
     return(
         <Container>
 
-        {/* <HeaderContainer>
+        <HeaderContainer>
             <Logo src={logo}/>
 
 
@@ -25,7 +25,7 @@ export   const Header = () =>{
 
 
 
-        </HeaderContainer> */}
+        </HeaderContainer>
         </Container>
     )
 }
