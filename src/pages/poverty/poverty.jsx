@@ -107,11 +107,11 @@ const Poverty = () => {
           <P color="black">Back</P>
         </Icon>
 
-        <OrangeHeaderText>
           <Link to="/education">
+        <OrangeHeaderText>
             Next - ENCOURAGE EDUCATION, SKILLS ACQUISITION AND TRADE
-          </Link>
         </OrangeHeaderText>
+          </Link>
       </Next>
       <Footer />
     </Container>

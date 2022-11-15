@@ -145,12 +145,12 @@ Supporting trades
                     <P color="black">Back</P>
                 </Icon>
 
-                <OrangeHeaderText>
                   <Link to="/community">
+                <OrangeHeaderText>
 
                 Next - Community Development Project
-                  </Link>
                 </OrangeHeaderText>
+                  </Link>
             </Next>
                 <Footer/>
         </Container>
