@@ -1,10 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import { P } from "../p/p";
+import {
+   
+  Link,
+} from "react-router-dom";
 
-export const ImageCard = ({src,text}) => {
+export const ImageCard = ({src,text,to}) => {
   return (
-    <Container>
+    <Container to={to}>
       <ImageContainer  src={src}/>
       <TextContainer>
         <P>{text}</P>
@@ -13,7 +17,7 @@ export const ImageCard = ({src,text}) => {
   );
 };
 
-const Container = styled.div`
+const Container = styled(Link)`
   width: 23%;
   margin-left:2px;
   margin-bottom:20px;

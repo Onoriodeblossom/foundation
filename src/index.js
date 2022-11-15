@@ -41,7 +41,7 @@ const router =createBrowserRouter([
         element: <Education/>,
       },
       {
-        path: "education",
+        path: "eldercare",
         element: <ElderCare/>,
       },
       {

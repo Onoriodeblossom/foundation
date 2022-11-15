@@ -143,7 +143,7 @@ const   Education = () =>{
                 </Icon>
 
                 <OrangeHeaderText>
-                  <Link to="community">
+                  <Link to="/community">
 
                 Next - Community Development Project
                   </Link>

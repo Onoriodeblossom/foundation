@@ -16,7 +16,7 @@ import { Footer } from "../../components/footer/footer"
 import { Header } from "../../components/header/header"
 
 import {
-  // Link,
+  Link,
 } from "react-router-dom";
 
 
@@ -144,10 +144,12 @@ const Community = () =>{
                     <BiArrowBack/>
                     <P color="black">Back</P>
                 </Icon>
+                <Link to="/eldercare">
 
                 <OrangeHeaderText>
-                Next - Community Development Project
+                Next - Compassion for the Elderly and Care for the Lonely
                 </OrangeHeaderText>
+                </Link>
             </Next>
                 <Footer/>
         </Container>

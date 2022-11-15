@@ -145,9 +145,10 @@ const Poverty = () =>{
                 </Icon>
 
                 <OrangeHeaderText>
-                  <Link to="community">
+                  <Link to="/education">
 
-                Next - Community Development Project
+                Next - ENCOURAGE EDUCATION, SKILLS 
+ACQUISITION AND TRADE 
                   </Link>
                 </OrangeHeaderText>
             </Next>

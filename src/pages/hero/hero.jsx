@@ -26,6 +26,7 @@ const Hero = () => {
   const vision = [
     {
       image: One,
+      path:"/poverty",
       text: "RELIEVE POVERTY  AND HUNGER ",
     },
     {
@@ -74,8 +75,8 @@ const Hero = () => {
           </P>
         </TextContainer>
         <Flex>
-          {vision.map(({ image, text }) => (
-            <ImageCard src={image} text={text} />
+          {vision.map(({ image, text,part}) => (
+            <ImageCard src={image} text={text} onclick={part} />
           ))}
         </Flex>
       </WrapperContainer>

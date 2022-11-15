@@ -143,9 +143,9 @@ const ElderCare = () =>{
                 </Icon>
 
                 <OrangeHeaderText>
-                  <Link to="community">
+                  <Link to="poverty">
 
-                Next - Community Development Project
+                {/* Next - Community Development Project */}
                   </Link>
                 </OrangeHeaderText>
             </Next>
