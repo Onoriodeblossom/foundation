@@ -71,7 +71,7 @@ const Hero = () => {
         <OrangeHeaderText top="40px">Our Mission and Purpose</OrangeHeaderText>
         <TextContainer>
           <P>
-            NICHOLAS AKINWALE AGBENI FOUNDATION is a Non-Profit Organization set
+            N A A FOUNDATION is a Non-Profit Organization set
             up with a mission to meet humanitarian needs in the best way as it
             can with focus centered on:
           </P>
