@@ -30,7 +30,6 @@ export const Donate= ()=>{
                       families together, 
                       and help communities thrive.
                 </P>
-                </Width>
 {
     donate ? (
         <Paypal/>
@@ -44,6 +43,7 @@ export const Donate= ()=>{
 
     )
 }
+                </Width>
 
 
 

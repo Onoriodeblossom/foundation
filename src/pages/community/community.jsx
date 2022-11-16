@@ -63,18 +63,18 @@ const Community = () => {
           </Flex>
         </Flex>
         <TextContainer>
-          <P align={"start"}>
+          <P align={"start"} color="#515151">
             Thousands of community are currently neglected and completely cut
             out of national budget with little to no access to basic amenities
             such as clean water, 3/24 hours light, motorable roads, to name but
             a few leading to the grand definition of "Lowest standard of
             living".
           </P>
-          <P align={"start"}>
+          <P align={"start"} color="#515151">
             At nagbenin foundation, we believe we can bridge the gap in a
             significant wa by embarking non community development projects.
           </P>
-          <P>
+          <P color="#515151">
             Our success on this mission will be significant with a kind touch of
             many hands including yours. Join us today in sponsoring communities'
             access to a better life and an improved standard of living.
@@ -89,7 +89,7 @@ const Community = () => {
               <Image src={img} />
               <div>
                 <OrangeHeaderText size="18px">{title}</OrangeHeaderText>
-                <P align={"start"}>{text}</P>
+                <P align={"start"} color="#515151">{text}</P>
               </div>
             </ImpactStoryCard>
           ))}

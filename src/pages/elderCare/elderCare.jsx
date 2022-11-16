@@ -56,7 +56,7 @@ const ElderCare = () =>{
                     </Flex>
                 </Flex>
                 <TextContainer>
-                <P align={"start"}>
+                <P align={"start"} color="#515151">
                       Millions of  elderly men and 
                       women in Africa are left to 
                       fend for themselves with their
@@ -65,7 +65,7 @@ const ElderCare = () =>{
                     extremely loneliness with nobody to care for them:
                     
                     </P>
-                    <P align={"start"}>
+                    <P align={"start"} color="#515151">
                     Join us today on our 
                     mission to give them a world to believe in
                     </P>
@@ -85,7 +85,7 @@ const ElderCare = () =>{
           <OrangeHeaderText size="18px">
             {title}
           </OrangeHeaderText>
-          <P align={"start"}>{text}</P>
+          <P align={"start"} color="#515151">{text}</P>
           </div>
           </ImpactStoryCard>
             ))

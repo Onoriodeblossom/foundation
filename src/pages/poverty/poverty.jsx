@@ -63,19 +63,19 @@ const Poverty = () => {
           </Flex>
         </Flex>
         <TextContainer>
-          <P align={"start"}>
+          <P align={"start"} color="#515151">
             Millions of people are currently living below poverty level and
             battling with hunger with every ounce of their little strength due
             to rising inflation, conflict, disaster and other natural
             phenomenon.
           </P>
-          <P align={"start"}>
+          <P align={"start"} color="#515151">
             At Nagbeni Foundation, we have embarked on a mission to give these
             precious souls the Audacity of hope. We believe no one should go to
             bed hungry in a world where there is abundance. officia deserunt
             mollit anim id est laborum.
           </P>
-          <P align="start">
+          <P align="start" color="#515151">
             Join us on our mission to reduce poverty and hunger to a minimum
             level and rescue millions from the torment of hunger.
           </P>
@@ -107,7 +107,7 @@ const Poverty = () => {
           <P color="black">Back</P>
         </Icon>
 
-          <Link to="/education">
+          <Link  to="/education">
         <OrangeHeaderText>
             Next - ENCOURAGE EDUCATION, SKILLS ACQUISITION AND TRADE
         </OrangeHeaderText>

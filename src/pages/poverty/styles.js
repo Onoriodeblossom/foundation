@@ -117,10 +117,8 @@ justify-content:space-between;
 align-items: center;
 display: flex;
 padding-top:40px;
-/* padding-left:30px; */
 padding-bottom:40px;
-background-color: yellow;
-/* padding-right:30px; */
+text-decoration:none;
 width: 90%;
 
 flex-direction: row;

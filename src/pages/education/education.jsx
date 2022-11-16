@@ -56,7 +56,7 @@ const   Education = () =>{
                     </Flex>
                 </Flex>
                 <TextContainer>
-                    <P align={"start"}>
+                    <P align={"start"} color="#515151">
                     Millions of children, teens, 
                     and young adults are currently
                      out of schools, and million 
@@ -70,7 +70,7 @@ const   Education = () =>{
                       inability to meet up with 
                     the financial requirement to nurture their dreams.
                     </P>
-                    <P align={"start"}>
+                    <P align={"start"} color="#515151">
                     At Nagbeni foundation,
                      we are on a mission to 
                      save these dreams, and to 
@@ -93,7 +93,7 @@ const   Education = () =>{
             </li>
             
           </ol>
-          <P>
+          <P color="#515151">
           It is our conviction that everyone has the ability to make a difference if given the opportunity.
 Get involved in the best way you can.
           </P>
@@ -131,7 +131,7 @@ Supporting trades
           <OrangeHeaderText size="18px">
             {title}
           </OrangeHeaderText>
-          <P align={"start"}>{text}</P>
+          <P align={"start"} color="#515151">{text}</P>
           </div>
           </ImpactStoryCard>
             ))
