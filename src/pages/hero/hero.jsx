@@ -78,7 +78,7 @@ const Hero = () => {
         </TextContainer>
         <Flex width={"80%"}>
           {vision.map(({ image, text,path}) => (
-            <ImageCard src={image} text={text} to={path} />
+            <ImageCard src={image} text={text} to={path}  />
           ))}
         </Flex>
       </WrapperContainer>
@@ -108,7 +108,7 @@ const Hero = () => {
             
 
         </ContactUsContainer>
-        <Volunteer background={Poverty} to="poverty" h1="Poverty and Hunger Relief" text="Millions of people are 
+        <Volunteer background={Poverty} to="poverty" h1="Poverty and Hunger Relief"   color="red" text="Millions of people are 
                         currently living below poverty 
                         and battling with hunger with
                          every ounce of strength due 
@@ -128,7 +128,7 @@ const Hero = () => {
           <OrangeHeaderText size="18px">
             {title}
           </OrangeHeaderText>
-          <P align={"start"}>{text}</P>
+          <P align={"start"} color="#515151">{text}</P>
           </div>
           </ImpactStoryCard>
             ))
@@ -160,7 +160,7 @@ const Hero = () => {
           <OrangeHeaderText size="18px">
             {title}
           </OrangeHeaderText>
-          <P align={"start"}>{text}</P>
+          <P align={"start"} color="#515151">{text}</P>
           </div>
           </ImpactStoryCard>
             ))
@@ -185,7 +185,7 @@ const Hero = () => {
           <OrangeHeaderText size="18px">
             {title}
           </OrangeHeaderText>
-          <P align={"start"}>{text}</P>
+          <P align={"start"} color="#515151">{text}</P>
           </div>
           </ImpactStoryCard>
             ))

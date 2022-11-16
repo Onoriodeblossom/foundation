@@ -22,6 +22,7 @@ const Container = styled(Link)`
   margin-left:2px;
   margin-bottom:20px;
   background-color: #3F3C39;
+  text-decoration: none;
 
   @media only screen and (max-width: 600px) {
     width:100%

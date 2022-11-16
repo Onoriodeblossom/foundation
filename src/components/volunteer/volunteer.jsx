@@ -21,8 +21,8 @@ export const Volunteer = ({background,text,flexDirection,h1,text2,to}) =>{
             <WrightUp>
                 <TextContainer>
                     <H1>{h1}</H1>
-                    <P>{text}</P>
-                    <P>{text2}</P>
+                    <P color="#515151">{text}</P>
+                    <P color="#515151">{text2}</P>
                     <Flex>
                     <Button>
 
