@@ -56,7 +56,7 @@ const Community = () => {
           </H1>
 
           <Flex width="20%">
-            <Button>Donate</Button>
+            <Button to="/donate">Donate</Button>
             <Button backgroundColor={"white"} color="#FFBD14">
               Voluteer
             </Button>
@@ -101,7 +101,7 @@ const Community = () => {
           <P color="black">Back</P>
         </Icon>
         <Link to="/eldercare">
-          <OrangeHeaderText>
+          <OrangeHeaderText size='18px'>
             Next - Compassion for the Elderly and Care for the Lonely
           </OrangeHeaderText>
         </Link>

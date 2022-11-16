@@ -49,7 +49,7 @@ const ElderCare = () =>{
                     <H1 align={"left"}>Compassion for the Elderly  <br/>and Care for the Lonely</H1>
 
                     <Flex width="20%">
-                        <Button>
+                        <Button to="/donate">
                             Donate
                         </Button>
                         <Button backgroundColor={"white"} color="#FFBD14">Voluteer</Button>

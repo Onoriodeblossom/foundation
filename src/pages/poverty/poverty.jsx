@@ -56,7 +56,7 @@ const Poverty = () => {
           </H1>
 
           <Flex width="20%">
-            <Button>Donate</Button>
+            <Button to="/donate">Donate</Button>
             <Button backgroundColor={"white"} color="#FFBD14">
               Voluteer
             </Button>
@@ -108,7 +108,7 @@ const Poverty = () => {
         </Icon>
 
           <Link  to="/education">
-        <OrangeHeaderText>
+        <OrangeHeaderText color="16px">
             Next - ENCOURAGE EDUCATION, SKILLS ACQUISITION AND TRADE
         </OrangeHeaderText>
           </Link>

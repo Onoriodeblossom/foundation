@@ -49,7 +49,7 @@ const   Education = () =>{
                     <H1 align={"left"}>Encourage Education, skills <br/>Acquisition and Trade</H1>
 
                     <Flex width="20%">
-                        <Button>
+                        <Button to="/donate">
                             Donate
                         </Button>
                         <Button backgroundColor={"white"} color="#FFBD14">Voluteer</Button>
@@ -146,7 +146,7 @@ Supporting trades
                 </Icon>
 
                   <Link to="/community">
-                <OrangeHeaderText>
+                <OrangeHeaderText size="18px">
 
                 Next - Community Development Project
                 </OrangeHeaderText>
