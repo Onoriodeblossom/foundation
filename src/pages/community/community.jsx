@@ -22,7 +22,7 @@ import {
 } from "./styles";
 import { OrangeHeaderText } from "../../components/orangeText/styles";
 import { Footer } from "../../components/footer/footer";
-import { Header } from "../../components/header/header";
+// import { Header } from "../../components/header/header";/
 
 import { Link } from "react-router-dom";
 
@@ -47,7 +47,7 @@ const Community = () => {
 
   return (
     <Container>
-      <Header />
+      {/* <Header /> */}
       <WrapperContainer>
         <ImageSection></ImageSection>
         <Flex>

@@ -14,7 +14,7 @@ import {
 import { Flex, Icon, Image, ImageSection, ImpactStoryCard, Next, TextContainer, WrapperContainer } from "./styles"
 import { OrangeHeaderText } from "../../components/orangeText/styles"
 import { Footer } from "../../components/footer/footer"
-import { Header } from "../../components/header/header"
+// import { Header } from "../../components/header/header"
 
 
 const   Education = () =>{
@@ -39,7 +39,7 @@ const   Education = () =>{
 
     return(
         <Container>
-            <Header/>
+            {/* <Header/> */}
             <WrapperContainer>
                 
                 <ImageSection>
