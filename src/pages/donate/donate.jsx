@@ -15,7 +15,7 @@ export const Donate= ()=>{
 
                 <Title>DONATE NOW</Title>
                 <P>
-                Since 1870, Erie 
+                {/* Since 1870, Erie 
                 Neighborhood House has
                  been a classroom, a second home,
                   and a community center for thousands 
@@ -28,7 +28,7 @@ export const Donate= ()=>{
                     to adulthood. Our wraparound services ensure
                      lifelong success, keep
                       families together, 
-                      and help communities thrive.
+                      and help communities thrive. */}
                 </P>
 {
     donate ? (
