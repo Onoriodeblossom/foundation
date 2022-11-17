@@ -12,6 +12,7 @@ import Community from './pages/community/community';
 import Education from './pages/education/education';
 import ElderCare from './pages/elderCare/elderCare';
 import { Donate } from './pages/donate/donate';
+import { Strip } from './components/paystack/strip';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -56,6 +57,7 @@ const router =createBrowserRouter([
 root.render(
   <React.StrictMode>
     <RouterProvider router={router}/>
+    {/* <Strip/> */}
     
   </React.StrictMode>
 );

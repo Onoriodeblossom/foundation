@@ -20,7 +20,7 @@ import {CgPhone} from "react-icons/cg"
 import { H2 } from "../../components/h2/h2";
 import { Volunteer } from "../../components/volunteer/volunteer";
 import { Footer } from "../../components/footer/footer";
-// import { Header } from "../../components/header/header";
+import { Header } from "../../components/header/header";
 
 const Hero = () => {
   const vision = [
@@ -66,21 +66,21 @@ const Hero = () => {
   ]
   return (
     <Container>
-      {/* <Header/> */}
       <WrapperContainer>
         <OrangeHeaderText top="40px">Our Mission and Purpose</OrangeHeaderText>
         <TextContainer>
           <P>
+      <Header/>
             N A A FOUNDATION is a Non-Profit Organization set
-            up with a mission to meet humanitarian needs in the best way as it
+            up with a mission to meet humanitarian needs in the best way  it
             can with focus centered on:
           </P>
         </TextContainer>
-        <Flex width={"80%"}>
+        {/* <Flex width={"80%"}>
           {vision.map(({ image, text,path}) => (
             <ImageCard src={image} text={text} to={path}  />
           ))}
-        </Flex>
+        </Flex> */}
       </WrapperContainer>
         <ContactUsContainer>
         <CardContainer>
@@ -117,7 +117,7 @@ const Hero = () => {
                          <OrangeHeaderText>Our Impart stories</OrangeHeaderText>
                          <Flex width="80%">
 
-        {
+         {
             impactStory.map(({img,text,title})=>(
 
           <ImpactStoryCard>
@@ -132,8 +132,7 @@ const Hero = () => {
           </div>
           </ImpactStoryCard>
             ))
-          }
-
+          } 
 
         </Flex>
         <Volunteer background={A} to={"education"}  h1="Encourage Education, skills Acquisition and Trade" flexDirection="row-reverse"
