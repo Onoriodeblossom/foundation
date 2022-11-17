@@ -122,7 +122,7 @@ const Hero = () => {
 
           <ImpactStoryCard>
 
-          <Image src={img}/>
+          {/* <Image src={img}/>/ */}
           <div>
 
           <OrangeHeaderText size="18px">
